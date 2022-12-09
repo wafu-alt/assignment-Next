@@ -24,6 +24,7 @@ const http_1 = __importDefault(require("http")),
     })
   ),
   server = http_1.default.createServer((E, B) => {
+    console.log(E.url, E.method, B.statusCode);
     "/stores" === E.url && "GET" === E.method
       ? ((B.statusCode = 200),
         B.setHeader("Content-Type", "application/json"),
