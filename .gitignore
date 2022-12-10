@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# 서버와 클라쪽 className달라서 생기는 오류
+.babelrc
+
 # testing
 /coverage
 

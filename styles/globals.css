@@ -120,29 +120,6 @@ table {
   border-spacing: 0;
 }
 
-/* 
-    Noto Sans CJK KR 
-    nav : 16px bold
-    contents h1 : 24px bold
-    contents nav : 16px;
-    contents title : 18px
-    contents address : 16px
-    contents number : 16px
-
-    web : 
-      bottom title : 18px bold
-      sub : 18px
-      des : 14px
-      ref : 12px
-      a tag : 14px bold
-    
-    footer : 
-      gray line : 14px
-      des : 14px
-     
-  
-  */
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

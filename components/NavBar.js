@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -6,9 +7,13 @@ export default function NavBar() {
       <nav>
         <MainNavUl>
           <li>
-            <h1>Home</h1>
+            <Link href="/">
+              <h1>Home</h1>
+            </Link>
           </li>
-          <li>About</li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
           <li>유라</li>
           <li>알라카르테</li>
           <li>공지사항</li>
