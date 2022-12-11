@@ -1,4 +1,6 @@
 import styled from "styled-components";
+
+// Home page
 export default function Home() {
   return (
     <MainContentsDiv>
@@ -9,6 +11,7 @@ export default function Home() {
 }
 
 const MainContentsDiv = styled.div`
-  background-color: #ebd57d;
+  margin-top: 40px;
+  text-align: center;
   height: 500px;
 `;
