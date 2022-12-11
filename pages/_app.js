@@ -15,11 +15,10 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 
 const Wrap = styled.div`
-  background-color: gray;
   margin: 0 auto;
   width: 1200px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 360px) and (max-width: 768px) {
     width: 360px;
   }
 `;
